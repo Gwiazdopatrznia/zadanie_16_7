@@ -15,9 +15,9 @@ class Form extends React.Component {
   }
 
   handleSubmit(event) {
-	this.props.add(this.state.value);
+    this.props.add(this.state.value);
     event.preventDefault();
-	this.state.value = '';
+    this.state.value = '';
   }
 
   render() {
